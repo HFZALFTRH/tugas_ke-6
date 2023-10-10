@@ -1,0 +1,43 @@
+img{
+    width: auto;
+    height: auto;
+}
+body{
+    background-image: url('../asset/pattern.jpg');
+    margin: 0;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+li{
+    display: inline;
+    margin-right: 30px;
+   
+}
+ a{
+    text-decoration: none;
+ }   
+ main{
+    background-color: white;
+    margin: 150PX 200PX;
+    padding: 20PX;
+ }
+article {
+        border-bottom: 2PX solid black;
+        margin-bottom: 10PX;
+}
+ footer{
+    background-color: black;
+    padding: 30px;
+ }
+ p{
+    color: white;
+    text-align: center;
+ }
